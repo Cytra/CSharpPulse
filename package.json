@@ -1,0 +1,36 @@
+{
+  "name": "tushi-nextjs",
+  "author": "Platol",
+  "description": "Packages For Tushi Next.js Template",
+  "version": "1.0.0",
+  "license": "Themeforest Standard Licence",
+  "private": true,
+  "scripts": {
+    "dev": "next-remote-watch ./content",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cache-posts": "node libs/cachePosts.js",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@next/font": "13.1.5",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "5.2.3",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "gray-matter": "^4.0.3",
+    "highlight.js": "^11.7.0",
+    "husky": "^8.0.3",
+    "marked": "^4.2.12",
+    "next": "13.1.5",
+    "next-themes": "^0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.7.1",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "next-remote-watch": "^2.0.0"
+  }
+}

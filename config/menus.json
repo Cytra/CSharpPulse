@@ -1,0 +1,22 @@
+{
+  "mainMenu": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "Contact",
+      "link": "/contact"
+    }
+  ],
+  "footerMenu": [
+    {
+      "name": "Terms of service",
+      "link": "/terms-of-service"
+    },
+    {
+      "name": "Privacy policy",
+      "link": "/privacy"
+    }
+  ]
+}
