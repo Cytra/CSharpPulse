@@ -11,7 +11,8 @@
     "start": "next start",
     "lint": "next lint",
     "cache-posts": "node libs/cachePosts.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "export": "next export"
   },
   "dependencies": {
     "@next/font": "13.1.5",
