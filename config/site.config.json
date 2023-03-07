@@ -1,9 +1,9 @@
 {
   "metaData": {
-    "title" : "Tushi | Minimal NextJS Blog Template",
-    "description" : "Tushi - a minimal nextjs blog template",
-    "author" : "Platol",
-    "keyword" : "blog, nextjs blog, react, nextjs, next.js, next js, tushi, minimal",
+    "title" : "C# Pulse",
+    "description" : "Weekly C# newsletter",
+    "author" : "Martynas Samuilovas",
+    "keyword" : "C# Newsletter Pulse",
     "ogImage" : "/images/ogimage.jpg"
   },
   "baseURL" : "https://tushi-nextjs.vercel.app/",

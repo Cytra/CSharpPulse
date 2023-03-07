@@ -4,7 +4,6 @@ import { getSinglePage } from "@/libs/getSinglePage";
 import ParseMarkdown from "@/utils/parseMarkdown";
 
 const HomeTwo = ({ homepage, posts }) => {
-  const { subtitle, title, image, socialLinks } = homepage.frontMatter;
   const { content } = homepage;
 
   const navigateToPage = () => {
@@ -17,8 +16,8 @@ const HomeTwo = ({ homepage, posts }) => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-9 col-lg-10 text-center">
-              <p className="mb-2">{subtitle}</p>
-              <h1 className="h2 text-dark mb-4">{title}</h1>
+              <p className="mb-2">Stay up to date with the latest news, updates, and tips for .NET developers. Subscribe now to receive our monthly newsletter straight to your inbox!</p>
+              <h1 className="h2 text-dark mb-4">Subscribe to our monthly newsletter</h1>
               <ParseMarkdown
                 tagName="div"
                 className="content"
