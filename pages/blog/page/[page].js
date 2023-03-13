@@ -37,7 +37,8 @@ const Blog = ({ authors, posts, currentPage, numberOfPages }) => {
 export default Blog;
 
 export const getStaticPaths = async () => {
-  const allPosts = fs.readdirSync(path.join("content/blog"));
+  //const allPosts = fs.readdirSync(path.join("content/blog"));
+  let allPosts = [];
   const numberOfPages = Math.ceil(allPosts.length / postConfig.postPerPage);
 
   let paths = [];

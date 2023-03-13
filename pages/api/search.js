@@ -9,8 +9,10 @@ export default (req, res) => {
   if (process.env.NODE_ENV === "production") {
     posts = require("../../cache/data").posts;
   } else {
-    const blogDirFiles = fs.readdirSync(path.join("content/blog"));
-    const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+    // const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+    // const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+
+    let blogs = [];
 
     posts = blogs.map((filename) => {
       const slug = filename.replace(".md", "");

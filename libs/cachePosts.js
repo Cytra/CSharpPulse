@@ -3,9 +3,10 @@ const path = require("path");
 const matter = require("gray-matter");
 
 function blogData() {
-  const blogDirectory = "content/blog";
-  const blogDirFiles = fs.readdirSync(path.join(blogDirectory));
-  const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+  // const blogDirectory = "content/blog";
+  // const blogDirFiles = fs.readdirSync(path.join(blogDirectory));
+  // const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+  let blogs = [];
 
   posts = blogs.map((filename) => {
     const slug = filename.replace(".md", "");

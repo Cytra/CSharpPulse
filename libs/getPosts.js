@@ -3,9 +3,11 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 
-const blogDirectory = "content/blog";
-const blogDirFiles = fs.readdirSync(path.join(blogDirectory));
-const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+// const blogDirectory = "content/blog";
+// const blogDirFiles = fs.readdirSync(path.join(blogDirectory));
+// const blogs = blogDirFiles.filter((f) => f.includes(".md"));
+
+let blogs = [];
 
 export const getPosts = () => {
   const returnDirFiles = blogs.map((filename) => {
