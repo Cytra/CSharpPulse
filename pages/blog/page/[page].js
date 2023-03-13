@@ -34,7 +34,7 @@ const Blog = ({ authors, posts, currentPage, numberOfPages }) => {
     </Layout>
   );
 };
-export default Blog;
+export default Blog; 
 
 export const getStaticPaths = async () => {
   //const allPosts = fs.readdirSync(path.join("content/blog"));
