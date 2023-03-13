@@ -5,8 +5,8 @@ import Post from "@/components/Post";
 import postConfig from "@/config/site.config.json";
 import { getAuthors } from "@/libs/getAuthors";
 import { getPosts } from "@/libs/getPosts";
-import fs from "fs";
-import path from "path";
+// import fs from "fs";
+// import path from "path";
 
 const Blog = ({ authors, posts, currentPage, numberOfPages }) => {
   return (
