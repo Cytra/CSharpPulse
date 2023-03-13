@@ -11,7 +11,7 @@ const HomeTwo = ({ homepage, posts }) => {
     window.location.href = "https://d1784039.sibforms.com/serve/MUIEADpLsKih0oIjmI75Cxbgyytf6WRaJhjBCJSzWiTza06EZ18ShRus9XpQnDsts7fylWLX5z3l9b_-pk30ecEgKjgKFceNdjlSCgxSM_fBnzXJ-SM9y1ASckGZ7doItdR_UQ_DQkDMTd3WF2gzOS7eV2G-DcCIwoCn7GC1u-mXS8Paq7Zk4mezJUN4zdd1XKeKUmD1TzG68Bxf";
   }
 
-  return ( 
+  return (
     <Layout>
       <section className="section">
         <div className="container">
